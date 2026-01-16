@@ -1,0 +1,41 @@
+---
+title: "Hello Quarto"
+author: "Natasha Weppler"
+format: html
+editor: source
+---
+
+## 00 Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## 01 Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+# 02 My first Quarto file
+
+```{r}
+print("Hello Quarto world!")
+```
+
+## b A new chunk
+
+With your keyboard you create a code chunk using the combination: "Ctrl + Alt + I" (Windows) or "Cmd + Option + I" (Mac)
+
+```{r}
+print("Hello Quarto World!")
+```
